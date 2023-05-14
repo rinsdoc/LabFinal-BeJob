@@ -1,0 +1,79 @@
+h1 {
+    font-size: 36px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #191D32;
+    
+}
+
+body:not(.errorTip) {
+    background-color:#252a40;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 2% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+label {
+    padding-left: 0.5rem;
+    font-size: 22px;
+}
+
+form {
+    background-color: #8fa7a0;
+    width: 50%;
+    height: 60%;
+    padding: 1.5rem 2rem;
+    max-width: 20rem;
+    border-radius: 1rem;
+    border: #BEFFC7 2.5px;
+    border-style: solid;
+    color: #191D32;
+}
+
+input {
+    height: 2.2rem;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 20rem;
+    border-radius: 0.5rem;
+    border:#191D32;
+    font-size: 18px;
+    text-indent: 2.5%;
+}
+
+button {
+    background-color: #f9c09c;
+    height: 2.5rem;
+    width: 100%;
+    justify-content: center;
+    max-width: 20rem;
+    border-radius: 0.35rem;
+    border: #191D32;
+    font-size: 20px;
+    color: #191D32;
+}
+
+.error {
+    color: red;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.errorTip {
+    background-color: azure;
+    border: #242933 solid 1.5px;
+    border-radius: 0.2rem;
+    color: black; 
+    font-size: 12px;
+    position: absolute; 
+    left: 52%;
+    visibility:hidden;
+    max-width: 100%;
+    display: inline-block;
+    font-size: 15px;
+    
+}
